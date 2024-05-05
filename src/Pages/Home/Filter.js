@@ -49,7 +49,7 @@ const CustomFilter = ({filter, setFilter}) => {
             >
 
              {filter.location.map((item)=>     <MenuItem value={item}>{item}</MenuItem>)}
-            
+            <MenuItem value={""}>All</MenuItem>
             </Select>
         </FormControl> 
         <FormControl className='select-container'>
@@ -64,7 +64,7 @@ const CustomFilter = ({filter, setFilter}) => {
             >
 
              {filter.company.map((item)=>     <MenuItem value={item}>{item}</MenuItem>)}
-            
+                <MenuItem value={""}>All</MenuItem>
             </Select>
         </FormControl> 
     </div>
