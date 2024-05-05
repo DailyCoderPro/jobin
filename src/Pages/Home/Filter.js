@@ -7,7 +7,6 @@ const CustomFilter = ({filter, setFilter}) => {
     const [minPay, setMinPay] = useState(0);
     const [location, setLocation] = useState('');
     const [company, setCompany] = useState('');
-    console.log(filter);
 
     useEffect(() => {
         setFilter(
