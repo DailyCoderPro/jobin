@@ -1,0 +1,33 @@
+.scroll-container {
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.select-container {
+    width: 300px;
+}
+.search-container{
+}
+.search-container input {
+    min-width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+.trucated-text{
+    max-height: 200px;
+    overflow: auto;
+}
